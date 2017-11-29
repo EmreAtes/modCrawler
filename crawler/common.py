@@ -104,9 +104,9 @@ MITM_PROXY_DST_CERT_DIR = expanduser("~/.mitmproxy/")
 
 HOME_PATH = expanduser('~')
 
-BASE_TEST_URL = 'https://securehomes.esat.kuleuven.be/~gacar/dev/test'
+BASE_TEST_URL = 'https://mary008-340stat01.bu.edu/test'
 ONLINE_TEST_HOST = urlparse(BASE_TEST_URL).hostname
-ONLINE_TEST_DOMAIN = "kuleuven.be"
+ONLINE_TEST_DOMAIN = "bu.edu"
 
 WAIT_ON_SITE = 10
 ALEXA_TOP_1M = join(BASE_ETC_DIR, 'top-1m.csv')
